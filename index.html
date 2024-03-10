@@ -3,8 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/css.css">
 </head>
 <body>
+
+<label class="theme-switch" for="checkbox" id="themeswitch">
+    <input type="checkbox" id="checkbox">
+    <div class="slider round"></div>
+    <span class="name"></span>
+    <div class="back"></div>
+</label>
+
 <h1 id="my_id">Hello guy</h1>
 La vie est un long fleuve tranquille
 
@@ -19,13 +28,27 @@ La vie est un long fleuve tranquille
 <h1 id="id2"></h1>
 
 <div><p id="id3">Je suis étudiant</p>
-    <input type="button" name="b_valid" value="Valider"></div>
-
-<div><p id="id4" >Je cherche un stage</p>
-    <input type="color" name="textStart">
-    <input type="color" name="textAutre">
+    <input type="button" name="b_valid" value="Valider">
 </div>
 
-<script src="index.js"></script>
+<div id="id4"><p>Je cherche un stage</p>
+    <input type="color" name="textStart" value="Valider">
+    <input type="color" name="textAutre" value="Valider">
+</div>
+
+<div>
+    <input type="number" id="numberInput" min="0" max="20" step="0.5" value="Valider">
+</div>
+
+<div id="id5">
+    <p id="text1"></p>
+    <p id="text2">Lycée Astier</p>
+    <div class="toggle-switch" id="button">
+        <input class="toggle-input" id="toggle" type="checkbox">
+        <label class="toggle-label" for="toggle"></label>
+    </div>
+</div>
+
+<script src="javaScript/index.js"></script>
 </body>
 </html>
